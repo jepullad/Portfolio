@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(134, 212, 212);
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #e8edf0;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(192, 117, 170);
+    width: 50px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.introduction, .about, .services {
+    padding: 50px;
+    text-align: center;
+}
+
+.introduction img, .about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.intro-text, .about-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f85fab;
+}
+
+.services {
+    background-color: #cf9696;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-card h3 {
+    margin-top: 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
